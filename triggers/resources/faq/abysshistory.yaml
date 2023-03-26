@@ -1,4 +1,0 @@
-interaction: faq/abysshistory
-description: Spiral Abyss History
-match: ${ TRIGGER_PREFIX }abysshistory(?:\s|$)
-ignoreCase: true
