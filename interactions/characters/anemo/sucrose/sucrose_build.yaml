@@ -12,6 +12,12 @@ embeds:
       text: "Use \"Open original\" to view full size.\n\nCredits to: ang tahimik#9252 (Designer) | juko#9385 (Content)"
 
 buttons:
+
+  - customId: "liveInteraction#characters/anemo/sucrose/faruzan_teams"
+    label: "Teams Infographic"
+    style: "PRIMARY"
+    emoji: "▶️"
+
   - label: "Guide"
     url: "https://keqingmains.com/sucrose/"
     emoji: ${ EMOJIS.LOGO }

@@ -11,6 +11,12 @@ embeds:
       text: "Use \"Open original\" to view full size.\n\nCredits to: euphorysm#1618 (Designer) | Ayzel#7399 (Content)"
       
 buttons:
+
+  - customId: "liveInteraction#characters/pyro/yoimiya/build"
+    label: "Build Infographic"
+    style: "PRIMARY"
+    emoji: "◀️"
+
   - label: "Guide"
     url: "https://keqingmains.com/yoimiya/"
     emoji: ${ EMOJIS.LOGO }

@@ -12,6 +12,12 @@ embeds:
       text: "Use \"Open original\" to view full size.\n\nCredits to: cuppacote (Designer) | cuppacote (Content)"
 
 buttons:
+
+  - customId: "liveInteraction#characters/anemo/heizou/heizou_teams"
+    label: "Teams Infographic"
+    style: "PRIMARY"
+    emoji: "▶️"
+
   - label: "Guide"
     url: "https://keqingmains.com/heizou"
     emoji: ${ EMOJIS.LOGO }

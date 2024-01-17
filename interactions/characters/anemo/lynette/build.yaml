@@ -6,12 +6,19 @@ embeds:
     thumbnail:
       url: ${ICON.CHARACTER_LYNETTE}
     description: |-
-      ★★★★★
+      ★★★★
       *Anemo Sword*    
     footer:
       text: "Use \"Open original\" to view full size.\n\nCredits to: zelard (Designer) | cuppacote (Content)"   
 
 buttons:
+
+  - customId: "liveInteraction#characters/anemo/lynette/teams"
+    label: "Teams Infographic"
+    style: "PRIMARY"
+    emoji: "▶️"
+
+
   - label: "Quick Guide"
     url: "https://keqingmains.com/q/lyney-quickguide/"
     emoji: ${ EMOJIS.LOGO }
