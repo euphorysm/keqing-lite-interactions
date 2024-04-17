@@ -2,13 +2,19 @@ embeds:
   - title: Diluc
     color: ${ COLORS.PYRO_ORANGE }
     image: 
-      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505605073637376/Diluc_New.png"
+      url: ${INFOGRAPHICS.DILUC_1}
     thumbnail:
-      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Diluc.png"
+      url: ${ICON.CHARACTER_DILUC}
     description: |-
-      *The tycoon of a winery empire in Mondstadt, unmatched in every possible way.*
+      ★★★★★
+      *Pyro Claymore*
 
 buttons:
+  - customId: "liveInteraction#characters/pyro/diluc/main2"
+    label: "Teams Infographic"
+    style: "PRIMARY"
+    emoji: "▶️"
+
   - label: "Guide"
     url: "https://keqingmains.com/diluc/"
     emoji: ${ EMOJIS.LOGO }

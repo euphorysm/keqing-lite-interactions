@@ -9,10 +9,20 @@ buttons:
     style: "PRIMARY"
     customId: "liveInteraction#tools/gcsim-pasta"
 
+  - label: "gcsim"
+    style: "LINK"
+    emoji: ${EMOJIS.LOGO_GCSIM}
+    url: "https://simimpact.app/"
+
   - label: "Get Started"
     style: "LINK"
     emoji: "📝"
     url: "https://docs.gcsim.app/get-started"
+
+  - label: "GCsim Guide"
+    style: "LINK"
+    emoji: "📝"
+    url: "https://docs.google.com/document/d/1fnPOR911Chyz65TxSjCX19QX14scLXlgoGq947dJhtk/edit?usp=sharing"
 
   - label: "Discord"
     style: "LINK"

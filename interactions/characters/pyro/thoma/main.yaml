@@ -4,9 +4,10 @@ embeds:
     image: 
       url: ${INFOGRAPHICS.THOMA_1}
     thumbnail:
-      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Tohma.png?raw=true"
+      url: ${ICON.CHARACTER_THOMA}
     description: |-
-      *The Kamisato Clan's housekeeper. A well-known "fixer" in Inazuma.*
+      ★★★★
+      *Pyro Polearm*
     footer:
       text: "Use \"Open original\" to view full size.\n\nCredits to: IcedSquid#3207 (Designer) | Cuzimori#1535, Praetor#3981 & Dorketh#8025 (Content)"
 

@@ -1,7 +1,8 @@
 embeds:
   - color: ${COLORS.GEO_YELLOW}
-    description: |-
-      <${EMOJIS.ELEMENT_GEO}> Select a character!
+    author:
+      name: Select a character!
+      icon_url: https://library.keqingmains.com/img/elements/geo.png
 
 # Additional links that should be displayed in the initial message.
 options: 
@@ -24,6 +25,11 @@ options:
     value: characters/geo/itto/main
     description: KQM's resources on Itto!
     emoji: ${ EMOJIS.CHARACTER_ITTO }
+
+  - label: Navia
+    value: characters/geo/navia/main
+    description: KQM's resources on Navia!
+    emoji: ${ EMOJIS.CHARACTER_NAVIA }
 
   - label: Ningguang
     value: characters/geo/ningguang/main

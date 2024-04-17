@@ -4,7 +4,7 @@ embeds:
     image: 
       url: ${INFOGRAPHICS.JEAN_1}
     thumbnail:
-      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Qin.png"
+      url: ${ICON.CHARACTER_JEAN}
     description: |-
       *The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.*
     footer:
@@ -13,6 +13,11 @@ embeds:
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/jean/"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://keqingmains.com/q/jean-quickguide/"
     emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 

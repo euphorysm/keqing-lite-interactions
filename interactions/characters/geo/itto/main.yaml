@@ -1,14 +1,21 @@
 embeds:
   - title: Arataki Itto
     color: ${ COLORS.GEO_YELLOW }
-    image: 
-      url: ${INFOGRAPHICS.ITTO_1}
     thumbnail:
-      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Itto.png?raw=true"
+      url: ${ICON.CHARACTER_ITTO}
     description: |-
       *The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?*
-    footer:
-      text: "Use \"Open original\" to view full size.\n\nCredits to: xf3#3123 (Designer) | nxriaki#6316 & Merp#6832 (Content)"
+
+options: #dropdown   
+  - label: Itto Build Infographic
+    value: characters/geo/itto/itto_build
+    description: KQM's resources for Itto's Builds.
+    emoji: ${EMOJIS.CHARACTER_ITTO}
+
+  - label: Itto Team Infographic
+    value: characters/geo/itto/itto_teams
+    description: KQM's resources for Itto's Teams.
+    emoji: ${EMOJIS.ELEMENT_GEO}
 
 buttons:
   - customId: "liveInteraction#characters/geo/itto/main2"
@@ -30,11 +37,6 @@ buttons:
     url: "https://library.keqingmains.com/characters/geo/itto"
     emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
-
-#  - label: "Video Guide"
-#    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
-#    emoji: ${ EMOJIS.YOUTUBE }
-#    style: "LINK"
 
   - label: "Before You Wish"
     url: "https://youtu.be/qXzOeuBjlrs"

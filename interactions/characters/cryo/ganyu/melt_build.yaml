@@ -2,9 +2,12 @@ embeds:
   - title: Melt Ganyu
     color: ${ COLORS.CRYO_BLUE }
     thumbnail:
-      url: "https://keqingmains.com/wp-content/uploads/2021/09/Character_Ganyu_Thumb-min.png"
+      url: ${ICON.CHARACTER_GANYU}
     image: 
       url: ${INFOGRAPHICS.GANYU_MELT_1}
+    description: |-
+      ★★★★★
+      *Cryo Bow*
     footer:
       text: "Use \"Open original\" to view full size.\n\nCredits to: Prévisible#7440 (Designer & Content)"
 
@@ -16,6 +19,11 @@ buttons:
 
   - label: "Guide"
     url: "https://keqingmains.com/ganyu/"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+    
+  - label: "Quick Guide"
+    url: "https://keqingmains.com/q/ganyu-quickguide/"
     emoji: ${ EMOJIS.LOGO }
     style: "LINK"
 

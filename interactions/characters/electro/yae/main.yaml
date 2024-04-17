@@ -1,14 +1,21 @@
 embeds:
   - title: Yae Miko
     color: ${ COLORS.ELECTRO_PURPLE }
-    image: 
-      url: ${INFOGRAPHICS.YAE_1}
     thumbnail:
-      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Yae.png?raw=true"
+      url: ${ICON.CHARACTER_YAE}
     description: |-
       *Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.*
-    footer:
-      text: "Use \"Open original\" to view full size. Page 2 Coming Soon!\n\nCredits to: xf3#3123 (Designer & Content)"
+
+options: #dropdown   
+  - label: Yae Build Infographic
+    value: characters/electro/yae/yae_build
+    description: KQM's resources for Yae's Builds.
+    emoji: ${EMOJIS.CHARACTER_YAE}
+
+  - label: Yae Team Infographic
+    value: characters/electro/yae/yae_teams
+    description: KQM's resources for Yae's Teams.
+    emoji: ${EMOJIS.ELEMENT_ELECTRO}
 
 buttons:
   - label: "Guide"
@@ -25,11 +32,6 @@ buttons:
     url: "https://library.keqingmains.com/characters/electro/yae-miko"
     emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
-
-#  - label: "Video Guide"
-#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
-#    emoji: ${ EMOJIS.YOUTUBE }
-#    style: "LINK"
 
   - label: "Before You Wish"
     url: "https://youtu.be/72R8W7UUrLw"

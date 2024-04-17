@@ -1,14 +1,25 @@
 embeds:
   - title: Dendro Traveler
     color: ${COLORS.DENDRO_GREEN}
-#    image: 
-#      url: ${INFOGRAPHICS.DENDRO_TRAVELER_1}
+
     thumbnail:
-      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_PlayerGirl.png"
+      url: ${ICON.CHARACTER_TRAVELER_M}
     description: |-
       *A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.*
-      
-      :construction: ***─ Infographic WIP ─*** :construction:
+
+
+options: #dropdown
+    
+  - label: Dendro Traveler Build Infographic
+    value: characters/dendro/dendrotraveler/build
+    description: KQM's resources for Dendro Traveler Builds.
+    emoji: ${EMOJIS.ELEMENT_DENDRO }
+
+  - label: Dendro Traveler Build Infographic
+    value: characters/dendro/dendrotraveler/teams
+    description: KQM's resources for Dendro Traveler Teams.
+    emoji: ${EMOJIS.ELEMENT_DENDRO }
+
 
 buttons:
 #  - label: "Guide"

@@ -4,9 +4,10 @@ embeds:
     image: 
       url: ${INFOGRAPHICS.XINGQIU_1}
     thumbnail:
-      url: "https://keqingmains.com/wp-content/uploads/2021/09/UI_AvatarIcon_Xingqiu.png"
+      url: ${ICON.CHARACTER_XINGQIU}
     description: |-
-      *A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.*
+      ★★★★
+      *Hydro Sword*
     footer:
       text: "Use \"Open original\" to view full size.\n\nCredits to: ang tahimik#9252 (Designer) | Ayzel#7399, xf3#3123 (Content)"      
       

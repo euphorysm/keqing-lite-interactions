@@ -1,0 +1,31 @@
+embeds:
+  - title: Lyney
+    color: ${ COLORS.PYRO_ORANGE }
+    thumbnail:
+      url: ${ICON.CHARACTER_LYNEY}
+    description: |-
+      ★★★★★
+      *Pyro Bow*
+
+options: #dropdown
+  - label: Builds
+    value: characters/pyro/lyney/build
+    description: KQM's resources for Lyney Builds.
+    emoji: ${EMOJIS.CHARACTER_LYNEY }
+
+  - label: Teams
+    value: characters/pyro/lyney/teams
+    description: KQM's resources for Lyney Teams.
+    emoji: ${EMOJIS.ELEMENT_PYRO }
+
+
+buttons:
+  - label: "Quick Guide"
+    url: "https://keqingmains.com/q/lyney-quickguide/"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
+  - label: "TCL"
+    url: "https://library.keqingmains.com/characters/pyro/lyney"
+    emoji: ${ EMOJIS.MAGNIFY }
+    style: "LINK"

@@ -1,13 +1,23 @@
 embeds:
   - title: Klee
     color: ${ COLORS.PYRO_ORANGE }
-    image: 
-      url: "https://cdn.discordapp.com/attachments/953505473125052456/953505606042538054/Klee_New.png"
     thumbnail:
-      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Klee.png?raw=true"
+      url: ${ICON.CHARACTER_KLEE}
     description: |-
       *An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.*
-      
+
+options: #dropdown
+    
+  - label: Klee Build Infographic
+    value: characters/pyro/klee/klee_build
+    description: KQM's resources for Klee Builds.
+    emoji: ${EMOJIS.CHARACTER_KLEE }
+
+  - label: Klee Teams Infographic
+    value: characters/pyro/klee/klee_teams
+    description: KQM's resources for Klee Teams.
+    emoji: ${EMOJIS.ELEMENT_PYRO }
+
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/klee/"

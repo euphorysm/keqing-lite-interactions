@@ -1,0 +1,28 @@
+embeds:
+  - title: Heizou
+    color: ${COLORS.ANEMO_GREEN}
+    image: 
+      url: ${INFOGRAPHICS.HEIZOU_2}
+    thumbnail:
+      url: ${ICON.CHARACTER_HEIZOU}
+    description: |-
+      ★★★★
+      *Anemo Catalyst*
+    footer:
+      text: "Use \"Open original\" to view full size.\n\nCredits to: cuppacote (Designer) | cuppacote (Content)"
+
+buttons:
+  - label: "Guide"
+    url: "https://keqingmains.com/heizou"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
+  - label: "Quick Guide"
+    url: "https://keqingmains.com/q/heizou-quickguide"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
+  - label: "TCL"
+    url: "https://library.keqingmains.com/heizou"
+    emoji: ${ EMOJIS.MAGNIFY }
+    style: "LINK"

@@ -1,12 +1,24 @@
 embeds:
   - title: Barbara
     color: ${ COLORS.HYDRO_BLUE }
-    image: 
-      url: "https://cdn.discordapp.com/attachments/954058547702943744/965671674362097705/unknown.png"
     thumbnail:
-      url: "https://muakasan.github.io/genshin-portraits/assets/UI_AvatarIcon_Barbara.png"
+      url: ${ICON.CHARACTER_BARBARA}
     description: |-
       *Every citizen of Mondstadt adores Barbara. She learned the word "idol" from a magazine.*
+
+
+options: #dropdown
+    
+  - label: Barbara Build Infographic
+    value: characters/hydro/barbara/build
+    description: KQM's resources for Barbara Builds.
+    emoji: ${EMOJIS.ELEMENT_HYDRO }
+
+  - label: Barbara Team Infographic
+    value: characters/hydro/barbara/teams
+    description: KQM's resources for Barbara Teams.
+    emoji: ${EMOJIS.ELEMENT_HYDRO }
+
 
 buttons:
   - label: "Guide"
@@ -23,8 +35,3 @@ buttons:
     url: "https://library.keqingmains.com/barbara"
     emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
-
-#  - label: "Video Guide"
-#    url: "https://www.youtube.com/watch?v=QW40leHPgJ8"
-#    emoji: ${ EMOJIS.YOUTUBE }
-#    style: "LINK"

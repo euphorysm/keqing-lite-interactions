@@ -2,9 +2,12 @@ embeds:
   - title: Freeze Ganyu
     color: ${ COLORS.CRYO_BLUE }
     thumbnail:
-      url: "https://keqingmains.com/wp-content/uploads/2021/09/Character_Ganyu_Thumb-min.png"
+      url: ${ICON.CHARACTER_GANYU}
     image: 
       url: ${INFOGRAPHICS.GANYU_FREEZE_2}
+    description: |-
+      ★★★★★
+      *Cryo Bow*
     footer:
       text: "Use \"Open original\" to view full size.\n\nCredits to: Prévisible#7440 (Designer & Content)"
 
@@ -41,6 +44,11 @@ buttons:
     emoji: ${ EMOJIS.LOGO }
     style: "LINK"
     
+  - label: "Quick Guide"
+    url: "https://keqingmains.com/q/ganyu-quickguide/"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
   - label: "Before You Wish"
     url: "https://www.youtube.com/watch?v=wr492BjbUh8"
     emoji: ${ EMOJIS.YOUTUBE }

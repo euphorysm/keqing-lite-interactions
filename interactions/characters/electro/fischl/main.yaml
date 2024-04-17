@@ -4,28 +4,19 @@ embeds:
     image: 
       url: ${INFOGRAPHICS.FISCHL_1}
     thumbnail:
-      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Fischl.png?raw=true"
+      url: ${ICON.CHARACTER_FISCHL}
     description: |-
-      *A mysterious girl who calls herself "Prinzessin der Verurteilung" and travels with a night raven named Oz.*
+      ★★★★
+      *Electro Bow*
     footer:
-      text: "Use \"Open original\" to view full size.\n\nCredits to: Not Logic#6705 (Designer) | ItzSomebody#0029 & person formerly known as mathboi#2718 (Content)"
-
-options: 
-  - label: Weapons 
-    value: faq/fischlwep
-    description: Fischl Weapon Rankings
-    emoji: <:Fischl:953426425959034920>
+      text: ${LABEL.INFOGRAPHIC_CREDITS} icedsquid (Designer) | nikatosaurus (Content)
 
 buttons:
-  - customId: "liveInteraction#characters/electro/fischl/main2"
-    label: "Teams Infographic"
-    style: "PRIMARY"
-    emoji: "▶️"
 
-  - label: "Guide"
-    url: "https://keqingmains.com/fischl/"
-    emoji: ${ EMOJIS.LOGO }
-    style: "LINK"
+  # - label: "Guide"
+  #   url: "https://keqingmains.com/fischl/"
+  #   emoji: ${ EMOJIS.LOGO }
+  #   style: "LINK"
 
   - label: "Quick Guide"
     url: "https://keqingmains.com/q/fischl-quickguide/"

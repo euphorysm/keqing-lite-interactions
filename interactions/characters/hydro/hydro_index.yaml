@@ -1,7 +1,8 @@
 embeds:
   - color: ${COLORS.HYDRO_BLUE}
-    description: |-
-      <${EMOJIS.ELEMENT_HYDRO}> Select a character!
+    author:
+      name: Select a character!
+      icon_url: https://library.keqingmains.com/img/elements/hydro.png
 
 # Additional links that should be displayed in the initial message.
 options: 
@@ -20,6 +21,11 @@ options:
     description: KQM's resources on Candace!
     emoji: ${ EMOJIS.CHARACTER_CANDACE }
 
+  - label: Furina
+    value: characters/hydro/furina/main
+    description: KQM's resources on Furina!
+    emoji: ${ EMOJIS.CHARACTER_FURINA }
+
   - label: Kokomi
     value: characters/hydro/kokomi/main
     description: KQM's resources on Kokomi!
@@ -29,6 +35,16 @@ options:
     value: characters/hydro/mona/main
     description: KQM's resources on Mona!
     emoji: ${ EMOJIS.CHARACTER_MONA }
+
+  - label: Nilou
+    value: characters/hydro/nilou/main
+    description: KQM's resources on Nilou!
+    emoji: ${ EMOJIS.CHARACTER_NILOU }
+
+  - label: Neuvillette
+    value: characters/hydro/neuvillette/main
+    description: KQM's resources on Neuvillette!
+    emoji: ${ EMOJIS.CHARACTER_NEUVILLETTE }
 
   - label: Tartaglia
     value: characters/hydro/tartaglia/main

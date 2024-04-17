@@ -1,7 +1,8 @@
 embeds:
   - color: ${COLORS.ELECTRO_PURPLE}
-    description: |-
-      <${EMOJIS.ELEMENT_ELECTRO}> Select a character!
+    author:
+      name: Select a character!
+      icon_url: https://library.keqingmains.com/img/elements/electro.png
 
 # Additional links that should be displayed in the initial message.
 options: 
@@ -14,6 +15,11 @@ options:
     value: characters/electro/cyno/main
     description: KQM's resources on Cyno!
     emoji: ${ EMOJIS.CHARACTER_CYNO }
+
+  - label: Dori
+    value: characters/electro/dori/main
+    description: KQM's resources on Dori!
+    emoji: ${ EMOJIS.CHARACTER_DORI }
 
   - label: Electro Traveler
     value: characters/electro/electrotraveler/main

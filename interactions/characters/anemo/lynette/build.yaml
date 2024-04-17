@@ -1,0 +1,23 @@
+embeds:
+  - title: Lynette
+    color: ${ COLORS.ANEMO_GREEN }
+    image: 
+      url: ${ INFOGRAPHICS.LYNETTE_1 }
+    thumbnail:
+      url: ${ICON.CHARACTER_LYNETTE}
+    description: |-
+      ★★★★★
+      *Anemo Sword*    
+    footer:
+      text: "Use \"Open original\" to view full size.\n\nCredits to: zelard (Designer) | cuppacote (Content)"   
+
+buttons:
+  - label: "Quick Guide"
+    url: "https://keqingmains.com/q/lyney-quickguide/"
+    emoji: ${ EMOJIS.LOGO }
+    style: "LINK"
+
+  - label: "TCL"
+    url: "https://library.keqingmains.com/characters/pyro/lyney"
+    emoji: ${ EMOJIS.MAGNIFY }
+    style: "LINK"

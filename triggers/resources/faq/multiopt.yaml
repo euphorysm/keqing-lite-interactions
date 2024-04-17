@@ -1,0 +1,4 @@
+interaction: faq/multiopt
+description: Genshin Optimizer multi-hit optimization guide
+match: ${ TRIGGER_PREFIX }multi-?(hit|opt)(?:\s|$)
+ignoreCase: true

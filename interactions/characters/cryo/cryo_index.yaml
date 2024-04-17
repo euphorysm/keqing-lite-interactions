@@ -1,7 +1,8 @@
 embeds:
   - color: ${COLORS.CRYO_BLUE}
-    description: |-
-      <${EMOJIS.ELEMENT_CRYO}> Select a character!
+    author:
+      name: Select a character!
+      icon_url: https://library.keqingmains.com/img/elements/cryo.png
 
 # Additional links that should be displayed in the initial message.
 options: 
@@ -14,6 +15,11 @@ options:
     value: characters/cryo/ayaka/main
     description: KQM's resources on Ayaka!
     emoji: ${ EMOJIS.CHARACTER_AYAKA }
+
+  - label: Charlotte
+    value: characters/cryo/charlotte/main
+    description: KQM's resources on Charlotte!
+    emoji: ${ EMOJIS.CHARACTER_CHARLOTTE }
 
   - label: Chongyun
     value: characters/cryo/chongyun/main
@@ -30,6 +36,11 @@ options:
     description: KQM's resources on Eula!
     emoji: ${ EMOJIS.CHARACTER_EULA }
 
+  - label: Freminet
+    value: characters/cryo/freminet/main
+    description: KQM's resources on Freminet!
+    emoji: ${ EMOJIS.CHARACTER_FREMINET }
+
   - label: Ganyu
     value: characters/cryo/ganyu/main
     description: KQM's resources on Ganyu!
@@ -45,6 +56,11 @@ options:
     description: KQM's resources on Layla!
     emoji: ${ EMOJIS.CHARACTER_LAYLA }
 
+  - label: Mika
+    value: characters/cryo/mika/main
+    description: KQM's resources on Mika!
+    emoji: ${ EMOJIS.CHARACTER_MIKA }
+
   - label: Qiqi
     value: characters/cryo/qiqi/main
     description: KQM's resources on Qiqi!
@@ -59,3 +75,8 @@ options:
     value: characters/cryo/shenhe/main
     description: KQM's resources on Shenhe!
     emoji: ${ EMOJIS.CHARACTER_SHENHE }
+
+  - label: Wriothesley
+    value: characters/cryo/wriothesley/main
+    description: KQM's resources on Wriothesley!
+    emoji: ${ EMOJIS.CHARACTER_WRIOTHESLEY }

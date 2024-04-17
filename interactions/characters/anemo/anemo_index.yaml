@@ -1,7 +1,8 @@
 embeds:
   - color: ${COLORS.ANEMO_GREEN}
-    description: |-
-      <${EMOJIS.ELEMENT_ANEMO}> Select a character!
+    author:
+      name: Select a character!
+      icon_url: https://library.keqingmains.com/img/elements/anemo.png
 
 # Additional links that should be displayed in the initial message.
 options: 
@@ -30,6 +31,11 @@ options:
     description: KQM's resources on Kazuha!
     emoji: ${ EMOJIS.CHARACTER_KAZUHA }
 
+  - label: Lynette
+    value: characters/anemo/lynette/main
+    description: KQM's resources on Lynette!
+    emoji: ${ EMOJIS.CHARACTER_LYNETTE }
+
   - label: Sayu
     value: characters/anemo/sayu/main
     description: KQM's resources on Sayu!
@@ -53,4 +59,4 @@ options:
   - label: Xiao
     value: characters/anemo/xiao/main
     description: KQM's resources on Xiao!
-    emoji: $ EMOJIS.CHARACTER_XIAO }
+    emoji: ${ EMOJIS.CHARACTER_XIAO }

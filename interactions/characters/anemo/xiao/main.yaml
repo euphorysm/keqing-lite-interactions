@@ -1,25 +1,29 @@
 embeds:
   - title: Xiao
-    color: ${ COLORS.ANEMO_GREEN }
-    image: 
-      url: "https://cdn.discordapp.com/attachments/954058547702943744/958916503145693205/unknown.png"
+    color: ${COLORS.ANEMO_GREEN}
     thumbnail:
-      url: "https://github.com/muakasan/genshin-portraits/blob/main/assets/UI_AvatarIcon_Xiao.png?raw=true"
+      url: ${ICON.CHARACTER_XIAO}
     description: |-
       *A yaksha adeptus who defends Liyue. Also heralded as the "Conqueror of Demons" and "Vigilant Yaksha."*
+
+options: #dropdown
+  - label: Xiao Build Infographic
+    value: characters/anemo/xiao/xiao_build
+    description: KQM's resources for Xiao Builds.
+    emoji: ${EMOJIS.CHARACTER_XIAO}
+
+  - label: Xiao Teams Infographic
+    value: characters/anemo/xiao/xiao_teams
+    description: KQM's resources for Xiao Teams.
+    emoji: ${EMOJIS.ELEMENT_ANEMO}
 
 buttons:
   - label: "Guide"
     url: "https://keqingmains.com/xiao"
     emoji: ${ EMOJIS.LOGO }
     style: "LINK"
-
   - label: "TCL"
+  
     url: "https://library.keqingmains.com/characters/anemo/xiao"
     emoji: ${ EMOJIS.MAGNIFY }
     style: "LINK"
-
-#  - label: "Video Guide"
-#    url: "https://www.youtube.com/watch?v=AWlLidtFiDw"
-#    emoji: ${ EMOJIS.YOUTUBE }
-#    style: "LINK"
